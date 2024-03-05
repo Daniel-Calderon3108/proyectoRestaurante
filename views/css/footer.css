@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+:root{
+    --tipoLetra: 'Orbitron', sans-serif;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.411);
+    margin-top: 138px;
+}
+
+.footer_body {
+    width: 32%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+    font-family: var(--tipoLetra);
+    font-size: 10px;
+}
+
+.footers_body {
+    background: rgba(0, 0, 0, 0.671);
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-family: var(--tipoLetra);
+    font-size: 15px;
+}
+
+.footers_body a {
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-youtube{
+    color: #c4302b;
+}
+
+.fa-instagram{
+    color: #5f3f9b;
+}
+
+.fa-twitter{
+    color: #00acee;
+}

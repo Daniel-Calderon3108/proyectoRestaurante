@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2874A6;
+}
+
+.container_login{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.login_title h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    color: #D6EAF8;
+    font-weight: 500;
+}
+
+.login_body{
+    background: #F7F9F9;
+    width: 40%;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 10px 20px #000000d7;
+}
+
+.login_input input{
+    width: 50%;
+    height: 50px;
+    background: none;
+    border-bottom: 2px solid #1A5276;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.login_input ::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+.login_register{
+    margin-top: 30px;
+}
+
+.login_register a{
+    text-decoration: none;
+    color: #1A5276;
+}
+
+.login_register a:hover{
+    opacity: .8;
+}
+
+.login_button input{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    cursor:pointer;
+    background: #2874A6;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .6s;
+}
+
+.login_button input:hover{
+    background: none;
+    border: 2px solid #2874A6;
+    color: #1A5276;
+}
